@@ -84,13 +84,3 @@ private:
 
 #endif
 
-///
-//cose fatte:
-//	-movement system
-//	-camera system
-//	-Render system(piu o meno)
-//
-//cose da fare:
-//	-menu system
-//	-organizzazione dei livelli
-///
