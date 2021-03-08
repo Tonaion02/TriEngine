@@ -112,23 +112,4 @@ if(COMMAND callback_end)
 	callback_end()
 endif()
 
-set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-
-file(GLOB RENDERER_FILES "src/Renderer/*.h" "src/Renderer/*.cpp")
-source_group("Renderer" FILES ${RENDERER_FILES})
-
-file(GLOB ANIMATION_FILES "src/Animation/*.h" "src/Animation/*.cpp")
-source_group("Animation" FILES ${ANIMATION_FILES})
-
-file(GLOB INPUT_FILES "src/Input/*.h" "src/Input/*.cpp")
-source_group("Input" FILES ${INPUT_FILES})
-
-file(GLOB ITEM_FILES "src/item/*.h" "src/item/*.cpp")
-source_group("item" FILES ${ITEM_FILES})
-
-file(GLOB VFX_FILES "src/vfx/*.h" "src/vfx/*.cpp")
-source_group("vfx" FILES ${VFX_FILES})
-
-file(GLOB WORLD_FILES "src/world/*.h" "src/world/*.cpp")
-source_group("world" FILES ${WORLD_FILES})
 
